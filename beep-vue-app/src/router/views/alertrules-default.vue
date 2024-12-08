@@ -100,6 +100,7 @@ export default {
     ScaleTransition,
   },
   mixins: [momentHumanizeHours, readAlertRules, readTaxonomy],
+
   data: function() {
     return {
       alertRulesDefault: [],

@@ -1,5 +1,5 @@
 <template>
-  <Layout :title="$t('Translations')">
+   <Layout :title="$t('Translations')">
     <v-container>
       <v-row
         v-for="(section, s) in sections"
@@ -61,7 +61,6 @@
     </v-container>
   </Layout>
 </template>
-
 <script>
 import Layout from '@layouts/back.vue'
 import languages from '@assets/js/languages'

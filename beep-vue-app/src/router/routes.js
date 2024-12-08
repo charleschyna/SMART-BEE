@@ -124,7 +124,7 @@ export default [
     name: 'apiary-create',
     component: () => lazyLoadView(import('@views/apiary-create.vue')),
   },
-  {
+  {  
     meta: {
       authRequired: true,
       depth: 2,

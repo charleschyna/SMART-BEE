@@ -90,7 +90,9 @@
         <v-spacer></v-spacer>
       </v-card-text>
     </v-form>
-  </Layout>
+  </Layout><style scoped>
+
+
 </template>
 
 <script>
@@ -239,4 +241,5 @@ export default {
     },
   },
 }
+
 </script>
