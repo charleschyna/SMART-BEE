@@ -2,9 +2,10 @@ import store from '@state/store'
 
 export default [
   {
-    path: '/sign-in',
-    name: 'sign-in',
-    component: () => import('@views/account-sign-in.vue'),
+    path: '/sign-up',
+    name: 'sign-up',
+    component: () => import('@views/account-sign-up.vue'),
+ 
     props: (route) => ({
       msg: route.query.msg,
       email: route.query.email,
@@ -185,7 +186,7 @@ export default [
   // },
   {
     meta: {
-      authRequired: true,
+      authRequired: false,
       depth: 2,
     },
     path: '/dashboards/create',
